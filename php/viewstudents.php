@@ -70,7 +70,7 @@ th,td{
 </head>
 <body>
     
-    <h1>Notifications</h1>
+    <h1>Students List</h1>
     <table>
         <tr>
             <th>Name</th>
