@@ -136,7 +136,7 @@ if($_SESSION['user'] == 'student'){
             <button type="submit">Send Message</button>
         </form>
         <div class="socials">
-            <a href="https://github.com/<?php echo $ans['github_id']; ?>" target = "_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="<?php echo $ans['github_id']; ?>" target = "_blank"><i class="fa-brands fa-github"></i></a>
             <a href="https://www.linkedin.com/in/<?php echo $ans['linked_in']; ?>" target = "_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://twitter.com/<?php echo $ans['twitter_id']; ?>" target = "_blank"><i class="fa-brands fa-twitter"></i></a>
             <a href="http://instagram.com/<?php echo $ans['insta_id']; ?>" target = "_blank"><i class="fa-brands fa-instagram"></i></a>
