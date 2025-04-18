@@ -294,7 +294,7 @@ else{
             </div>
 
             <div class="form-group">
-                <label for="github_id">GitHub ID </label>
+                <label for="github_id">GitHub Link </label>
                 <input type="text" id="github_id" name="github_id"  value="<?php if(isset($_POST['github_id'])) echo $_POST['github_id']; ?>" >
             </div>
 
