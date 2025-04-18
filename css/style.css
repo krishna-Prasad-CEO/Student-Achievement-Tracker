@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(72, 70, 70,0.6);
+    padding: 0px;
+    margin: 0px;
+    background-image: url('./img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+/* CSS Reset */
+
+
+/* CSS Reset */
+
+.btn{
+    display: inline-block;
+    text-align: center;
+    min-width: 150px;
+    line-height: 30px;
+    background-color: rgb(206, 198, 198,0.6);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin: 10px;
+
+
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    background-color:transparent;
+    border: 1px solid black;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden; /* For rounded corners on table */
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 5px solid rgb(114, 114, 114,0.7);
+    background-color: rgb(226, 222, 222,0.6);
+}
+td:nth-child(1) {
+    border-right: 3px solid rgb(114, 114, 114,0.7);
+}
+td:nth-child(2) {
+    border-right: 3px solid rgb(114, 114, 114,0.7);
+}
+td:nth-child(3) {
+    border-right: 3px solid rgb(114, 114, 114,0.7);
+}
+th {
+    background-color: rgba(19, 19, 19, 0.6);
+    font-weight: bold;
+    color: #f0e8e8;
+    text-align: center;
+}
+
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+tr:nth-child(1):hover{
+    background-color: rgba(19, 19, 19, 0.2);
+}
+
+
+
+.btn1{
+    width:180px;
+    line-height: 50px;
+    font-weight: bolder;
+    color:white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgba(141, 137, 137, 0.50);
+    padding: 10px 20px;
+    transition: all 0.5s ease-in;
+    overflow: hidden;
+    border: 0.5px solid white;
+    margin-right: 20px;
+    animation: border1 4s ease-in infinite;
+}
+.btn1 a{
+    transition: all 0.5s ease-in;
+}
+.btn1:hover a{
+    color:white;
+}
+.btn1:hover{
+    background-color: crimson;
+    color: white;
+    transform: scale(1.1);
+}
+.btn2{
+    width:180px;
+    line-height: 50px;
+    font-weight: bolder;
+    color:white;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color:crimson;
+    padding: 10px 20px;
+    transition: all 0.5s ease-in;
+    overflow: hidden;
+    border: 0.5px solid white;
+    margin-right: 20px;
+    animation: border1 4s ease-in infinite;
+}
+.btn2 a{
+    transition: all 0.5s ease-in;
+}
+.btn2:hover a{
+    color:white;
+}
+.btn2:hover{
+    background-color: crimson;
+    color: white;
+    transform: scale(1.1);
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px; /* Slightly increased height for better spacing */
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #222; /* Darker, more subtle border */
+    background-color: rgb(11, 11, 11,0.9); /* Slightly lighter black for depth */
+    color: #f0f0f0; /* Off-white for a more natural look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+    padding: 0 20px; /* Add some horizontal padding */
+}
+
+header .logo {
+    width: 60%;
+    line-height: 60px; /* Match header height */
+    display: flex;
+    align-items: center; /* Align logo text vertically */
+    font-size: 32px; /* Slightly larger logo */
+    font-weight: bold;
+    justify-content: flex-start; /* Align logo to the left */
+    padding-left: 30px; /* Add some left padding to the logo */
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5); /* Subtle text shadow for depth */
+}
+
+header .nav {
+    width: 40%;
+    height: 100%;
+}
+
+header .nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    line-height: 60px; /* Match header height */
+    position: relative;
+    justify-content: flex-end; /* Align navigation to the right */
+    padding-right: 30px; /* Add some right padding to the navigation */
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin: 0;
+    width: max-content;
+    color: #e0e0e0; /* Slightly lighter text */
+    transition: all 0.3s ease-in-out;
+    padding: 0 35px; /* Add padding around list items */
+}
+
+.nav ul li:hover {
+    transform: scale(1.4); /* Subtle lift on hover */
+
+}
+
+li a {
+    color: #e0e0e0;
+    text-decoration: none; /* Remove underlines */
+    letter-spacing: 0.5px; /* Add a little letter spacing */
+    font-weight: normal; /* Use normal font weight */
+}
+
+li a:hover {
+    color: #fff; /* Slightly brighter white on hover */
+}
