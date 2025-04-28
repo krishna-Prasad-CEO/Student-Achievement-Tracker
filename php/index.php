@@ -28,6 +28,7 @@ $result = mysqli_query($conn, $query);
     
 
     <style>
+    
 
 .container {
     width: 100%;

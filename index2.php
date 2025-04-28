@@ -159,5 +159,6 @@ if($_SESSION['user'] == 'student'){
     }
   });
 });</script>
+
 </body>
 </html>
